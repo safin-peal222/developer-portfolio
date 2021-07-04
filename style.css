@@ -16,7 +16,7 @@ h1 {
   text-align: justify;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -43,4 +43,15 @@ section {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100px;
+}
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 10px;
+  margin-right: 5%;
+}
+#experiences {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
 }
